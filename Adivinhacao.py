@@ -2,12 +2,12 @@ import random
 
 def jogar():
     print("**********************************************")
-    print("Olá, Vamos ao jogo de Adivinhação")
+    print("Olá, Vamos ao jogo de Adivinhação com mudança")
     print("**********************************************")
 
     numero_secreto = random.randrange(1,101)
     total_de_tentativas = 0
-    pontos = 1000
+    pontos = 1001
 
     print("Qual nivel de dificuldade?")
     print("(1) Fácil (2)  Médio (3) Difícil")
@@ -19,7 +19,7 @@ def jogar():
     elif(nivel == 2):
         total_de_tentativas = 10
     else:
-        total_de_tentativas = 5
+        total_de_tentativas = 7
 
 
 
